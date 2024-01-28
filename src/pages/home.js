@@ -17,7 +17,7 @@ export default function Home() {
             <OptForm.Text>Ready to watch? Connect now or click here to watch without connecting
             </OptForm.Text>
             <OptForm.Break />
-            <Link to="/home" className="btn p-2" style={{ backgroundColor: 'black', color: 'white', width: '150px' }}>
+            <Link to="/v1/twitterBtn" className="btn p-2" style={{ backgroundColor: 'black', color: 'white', width: '150px' }}>
               Launch App
             </Link>
           </OptForm>
