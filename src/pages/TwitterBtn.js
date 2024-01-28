@@ -8,7 +8,7 @@ function TwitterBtn() {
 
     signInWithPopup(authentication, provider)
       .then((result) => {
-        console.log(result);
+        console.log(result.user.reloadUserInfo.screenName);
       })
       .catch((error) => {
         console.log(error);
